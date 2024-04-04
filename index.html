@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simon-game </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="press-text">Press A Key to Start</div>
+    <div class="instruct closebtn">#HowToPlay</div>
+    <div class="container">
+        <div class="row">
+            <div id="green" class="btn-simon 0" type="button"></div>
+            <div id="red" class="btn-simon 1" type="button"></div>
+        </div>
+        <div class="row" >
+            <div id="yellow" class="btn-simon 2" type="button"></div>
+            <div id="blue" class="btn-simon 3" type="button"></div>
+            
+        </div>
+
+    </div>
+    <div class="startmobilebtn">start</div>
+    <div class="startbtn">
+        
+    </div>
+    <div id="instruction">
+        <span>#Rules</span>
+        <span>#1. Press the 'start' button to start the game.</span>
+        <span>#2. Simon will play a sequence of colors by blinking its lights and playing a sound.</span>
+        <span>#3. Repeat the sequence by pressing the colored buttons in the correct order.</span>
+        <span>#4. Simon will add one more color to the sequence each time you play the sequence correctly.</span>
+        <span>#5. The sequence will get longer and faster as you keep playing.</span>
+        <span>#6. If you make a mistake, the game will end and your level will be displayed.</span>
+        <div class="closebtn">Close</div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
