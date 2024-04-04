@@ -82,7 +82,11 @@ function ifWrong(){
     setTimeout(() => {
         $("body").removeClass("redbackground");
     }, 300);
-    $(".press-text").text("Game Over, Press Any Key to Restart");
+    if(smallScreen.matches){
+        $(".press-text").text("Press 'start' to play");
+    }else{
+        $(".press-text").text("Game Over, Press Any Key to Restart");
+    }
     level=1;
     started=false;
     $(".startmobilebtn").show()
